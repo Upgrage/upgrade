@@ -58,4 +58,15 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="eo.sql" />
+    <Build Include="event.sql" />
+    <Build Include="event_exp.sql" />
+    <Build Include="competition.sql" />
+    <Build Include="comp_docs.sql" />
+    <Build Include="comp_add.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="upgrade.refactorlog" />
+  </ItemGroup>
 </Project>

@@ -7,5 +7,6 @@
     [event_address] VARCHAR(MAX) NOT NULL, 
     [event_startdate] DATE NOT NULL, 
     [event_enddate] DATE NOT NULL, 
-    [event_logo] IMAGE NOT NULL 
+    [event_logo] IMAGE NOT NULL, 
+    CONSTRAINT [id_eo] FOREIGN KEY ([event_eo]) REFERENCES [eo]([eo_id]) 
 )
