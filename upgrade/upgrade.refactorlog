@@ -154,4 +154,32 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="comp_add_title" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="29c0b807-a68b-4f75-90b0-87c5082a9c2f" ChangeDateTime="02/13/2016 11:00:15">
+    <Property Name="ElementName" Value="[dbo].[eh].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[eh]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="eh_id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2c9d9bb6-d97a-44b3-bbb8-1e2f203b5b5e" ChangeDateTime="02/13/2016 11:02:21">
+    <Property Name="ElementName" Value="[dbo].[eh].[eh_username]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[eh]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="eh_email" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b34c2d84-a4a0-402b-bfcf-1492a31e70b8" ChangeDateTime="02/13/2016 11:04:06">
+    <Property Name="ElementName" Value="[dbo].[eh_comp].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[eh_comp]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="eh_comp_id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="09c32df5-02c2-42b6-9d59-d90e97144e46" ChangeDateTime="02/13/2016 11:08:23">
+    <Property Name="ElementName" Value="[dbo].[eh_circle].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[eh_circle]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="eh_circle_id" />
+  </Operation>
 </Operations>
